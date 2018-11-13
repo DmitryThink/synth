@@ -1,0 +1,4 @@
+/home/think/Synth/Builds/CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/think/Synth/Builds/CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/think/Synth/Builds/CLion/cmake-build-debug/CMakeFiles/SHARED_CODE.dir
+/home/think/Synth/Builds/CLion/cmake-build-debug/CMakeFiles/STANDALONE_PLUGIN.dir
