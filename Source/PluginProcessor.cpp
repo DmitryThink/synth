@@ -24,6 +24,14 @@ SynthAudioProcessor::SynthAudioProcessor()
                        )
 #endif
 {
+    mySynth.clearVoices();
+
+    for (int i = 0; i < 5; i++)
+    {
+        mySynth.addVoice(new SynthVoice());
+    }
+    mySynth.clearSounds();
+    mySynth.addSound(new SynthSound());
 }
 
 SynthAudioProcessor::~SynthAudioProcessor()
@@ -95,8 +103,9 @@ void SynthAudioProcessor::changeProgramName (int index, const String& newName)
 //==============================================================================
 void SynthAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    // Use this method as the place to do any pre-playback
-    // initialisation that you need..
+    ignoreUnused(samplesPerBlock);
+    lastSampleRate = sampleRate;
+    mySynth.setCurrentPlaybackSampleRate(lastSampleRate);
 }
 
 void SynthAudioProcessor::releaseResources()
@@ -156,6 +165,9 @@ void SynthAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuffer& 
 
         // ..do something to the data...
     }
+
+    buffer.clear();
+    mySynth.renderNextBlock(buffer, midiMessages, 0, buffer.getNumSamples());
 }
 
 //==============================================================================

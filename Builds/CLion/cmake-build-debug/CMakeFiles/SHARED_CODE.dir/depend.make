@@ -7105,6 +7105,8 @@ CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o: /home/thi
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o: /home/think/Synth/Source/PluginEditor.cpp
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o: /home/think/Synth/Source/PluginEditor.h
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o: /home/think/Synth/Source/PluginProcessor.h
+CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o: /home/think/Synth/Source/SynthSound.h
+CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o: /home/think/Synth/Source/SynthVoice.h
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o: /usr/include/x86_64-linux-gnu/asm/ioctls.h
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o: /usr/include/x86_64-linux-gnu/asm/socket.h
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o: /usr/include/x86_64-linux-gnu/bits/ioctl-types.h
@@ -7677,6 +7679,8 @@ CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o: /home/
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o: /home/think/Synth/Source/PluginEditor.h
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o: /home/think/Synth/Source/PluginProcessor.cpp
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o: /home/think/Synth/Source/PluginProcessor.h
+CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o: /home/think/Synth/Source/SynthSound.h
+CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o: /home/think/Synth/Source/SynthVoice.h
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o: /usr/include/x86_64-linux-gnu/asm/ioctls.h
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o: /usr/include/x86_64-linux-gnu/asm/socket.h
 CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o: /usr/include/x86_64-linux-gnu/bits/ioctl-types.h

@@ -7106,6 +7106,8 @@ CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginEditor.cpp.o
  /home/think/Synth/Source/PluginEditor.cpp
  /home/think/Synth/Source/PluginEditor.h
  /home/think/Synth/Source/PluginProcessor.h
+ /home/think/Synth/Source/SynthSound.h
+ /home/think/Synth/Source/SynthVoice.h
  /usr/include/x86_64-linux-gnu/asm/ioctls.h
  /usr/include/x86_64-linux-gnu/asm/socket.h
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h
@@ -7678,6 +7680,8 @@ CMakeFiles/SHARED_CODE.dir/home/think/Synth/Source/PluginProcessor.cpp.o
  /home/think/Synth/Source/PluginEditor.h
  /home/think/Synth/Source/PluginProcessor.cpp
  /home/think/Synth/Source/PluginProcessor.h
+ /home/think/Synth/Source/SynthSound.h
+ /home/think/Synth/Source/SynthVoice.h
  /usr/include/x86_64-linux-gnu/asm/ioctls.h
  /usr/include/x86_64-linux-gnu/asm/socket.h
  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h
